@@ -1,9 +1,0 @@
-{
-  "name": "example_nodejs",
-  "version": "0.0.1",
-  "dependencies": {
-    "jquery": "~2.0.3",
-    "bootstrap": "~3.2.0",
-    "react": "~0.11.1"
-  }
-}

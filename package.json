@@ -1,13 +1,27 @@
 {
   "name": "example_nodejs",
-  "description": "hello world test app",
   "version": "0.0.1",
-  "main": "app.js",
-  "scripts": {
-    "start": "node app.js"
-  },
-  "private": true,
+  "description": "example webpack",
+  "main": "index.js",
   "dependencies": {
-    "express": "4.x"
-  }
+    "webpack": "^1.4.0-beta6"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-util": "^3.0.1",
+    "webpack-dev-server": "^1.6.4"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikhkonkov/example_nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikhkonkov/example_nodejs/issues"
+  },
+  "homepage": "https://github.com/mikhkonkov/example_nodejs"
 }
