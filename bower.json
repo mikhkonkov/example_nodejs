@@ -1,0 +1,9 @@
+{
+  "name": "example_nodejs",
+  "version": "0.0.1",
+  "dependencies": {
+    "jquery": "*",
+    "bootstrap": "*",
+    "react": "*"
+  }
+}
