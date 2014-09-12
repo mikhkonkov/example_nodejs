@@ -12,6 +12,7 @@ gulp.task("dev-server", function() {
   var compiler = webpack(webpackConfig);
   new WebpackDevServer(compiler, {
         // server and middleware options
+        publicPath: "/assets/"
     }).listen(8080, "localhost", function(err) {
         if(err) throw new gutil.PluginError("webpack-dev-server", err);
         // Server listening
